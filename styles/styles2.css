@@ -1,0 +1,758 @@
+@font-face {
+  font-family: 'myriad-pro';
+  src: url(../font/myriad-pro/MYRIADPRO-SEMIBOLD.OTF)  format('opentype'),
+   		url(../font/myriad-pro/myriadpro-semibold-webfont.eot);
+  
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	/*font-family: 'myriad-pro', "Lucida Sans Unicode", Arial, sans-serif;*/
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 100%;
+	color: #ffffff;
+	background-color: white;
+	/*background-size: 100%;*/
+	font-size: 14px;
+}
+
+ul > li {
+	list-style-type: none;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+	margin-left: 5px;
+	margin-top: -3px;
+	color: #ffd400;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+span {
+	color: #ffffff;
+}
+
+#background {
+	position: absolute;
+	left: -275px;
+	width: 1920px;
+	height: 1300px;
+	background-repeat: no-repeat;
+	
+}
+
+.background_bg {
+	background-image: url(https://cdn1.efbet.com/efbet/images/FrontPage-Rio.jpg);
+	
+}
+.background_tr {
+	background-image: url(https://cdn1.efbet.com/efbet/images/olypic-games-tr.jpg);
+	
+}
+.background_uk {
+	background-image: url(https://cdn1.efbet.com/efbet/images/FrontPage-Rio.jpg);
+	
+}
+
+#content {
+
+	margin: 0;
+	padding: 0;
+	width: 1370px;
+	height: 1080px;
+	margin: 0;
+	position: absolute;
+	left: 0;
+	top: 140px;
+	background-color: #353535;
+}
+
+#header {
+	/*background-color: #1e1e1e;*/
+	/*height: 136px;
+	width: 1366px;*/
+	margin: auto;
+	color: black;
+	/*border: 2px solid grey;*/
+	font-size: 1.3em;
+	position: absolute;
+	left: 0;
+	/*-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;*/
+}
+
+.headerBG {
+	background-image: url(https://cdn1.efbet.com/efbet/images/HeaderBgImage_03.jpg);
+    	height: 141px;
+    	width: 1370px;
+	margin: auto;
+	color: black;
+	/*border: 2px solid grey;*/
+	font-size: 1.3em;
+	position: absolute;
+	left: 0;
+	/*-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;*/
+}
+
+
+#header-navigation {
+	
+}
+
+#header-navigation ul {
+	margin: 73px 0 0 900px;
+}
+
+#header-navigation ul > li {
+	/*list-style-image: url(../images/flag-bg.jpg);*/
+	float: left;
+	margin-left: 45px;
+    	
+}
+
+#header-navigation ul > li > a {
+	color: white;
+	text-decoration: none;
+}
+
+#header-navigation ul > li > a:hover{
+	color: #ffd400;
+}
+
+#logoOld {
+	height: 70px;
+	width: 334px;
+	background-image: url(../images/efbet.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    float: left;
+    margin: 25px 0 0 25px;
+
+}
+
+#logo {
+	height: 82px;
+	width: 334px;
+	/*background-image: url(../images/efbet.png);*/
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    float: left;
+    margin: 25px 0 0 25px;
+
+}
+
+.logoBG {
+	height: 82px;
+	
+	background-image: url(https://cdn1.efbet.com/efbet/images/LandingLittleStarsMainLogo_03_03.png);
+	background-size: cover;
+   	background-repeat: no-repeat;
+    	background-position: 50% 50%;
+    	float: left;
+    	margin: 25px 0 0 25px;
+
+}
+
+ #winNow {
+    background-image: url(https://cdn1.efbet.com/efbet/images/Bulgarian_landing_phrase-_new.gif);
+    height: 82px;
+    width: 412px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 450px;
+    top: 41px;
+}
+
+#promo {
+    background-image: url(//cdn1.efbet.com/efbet/images/Turkish_landing_gif.gif);
+    height: 124px;
+    width: 514px;
+    position: absolute;
+    left: 285px;
+    top: 13px;
+}
+
+
+#left {
+	position: absolute;
+	/*float: left;*/
+	color: #ffffff;
+	width: 253px;
+	height: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5e5e5f+0,333334+100 */
+	background: #5e5e5f; /* Old browsers */
+	background: -moz-linear-gradient(top, #5e5e5f 0%, #333334 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5e5e5f), color-stop(100%,#333334)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #5e5e5f 0%,#333334 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #5e5e5f 0%,#333334 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #5e5e5f 0%,#333334 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #5e5e5f 0%,#333334 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5f', endColorstr='#333334',GradientType=0 ); /* IE6-9 */
+	line-height: 40px;
+	font-size: 18px; 
+}
+
+#sport-casino {
+	position: relative;
+	left: 269px;
+	top: 15px;
+}
+
+#sport {
+	position: absolute;
+	border: 6px solid #474747;
+	width: 1073px;
+	height: 320px;
+    	overflow: hidden;
+	cursor:pointer; 
+}
+
+#sportTr {
+	position: absolute;
+	border: 6px solid #474747;
+	width: 1073px;
+	height: 320px;
+    	overflow: hidden; 
+	cursor:pointer; 
+}
+
+
+#sportEn {
+	position: absolute;
+	border: 6px solid #474747;
+	width: 1073px;
+	height: 320px;
+    	overflow: hidden; 
+	cursor:pointer; 
+}
+
+
+#sport-click {
+    position: absolute;
+    border: 6px solid #474747;
+    width: 1073px;
+	height: 320px;
+    cursor: pointer;
+    z-index: 3000;
+}
+
+#sport:hover, #sportTr:hover, #sportEn:hover{
+	border-color: #ffd400;
+	cursor: pointer;
+}
+
+#casino {
+	position: absolute;
+	top: 335px;
+	border: 6px solid #474747;
+	width: 1073px;
+	height: 320px;
+}
+
+#casino:hover{
+	border-color: #ffd400;
+}
+
+.sport-pic {
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%; 
+}
+
+#casino-pic {
+	background-image: url(../images/cazino.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%; 
+}
+
+#footer{
+	position: absolute;
+	left: 254px;
+	top: 750px;
+}
+
+#footer > p {
+	text-align: center;
+	font-size: 0.7em;
+	color: #9a9a9a;
+}
+
+
+.picture1 {
+	position: absolute;
+	height:320px;
+	width: 1073px;
+	/*background-color: grey;*/
+	/*-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;*/
+}
+
+.picture {
+	position: absolute;
+	height:320px;
+	width: 537px;
+	/*background-color: grey;*/
+	/*-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;*/
+}
+
+.bet-sport {
+	position: absolute;
+	top: 0;
+	left: 540px;
+	height: 320px;
+	width: 265px;
+	background: #5e5e5f; /* Old browsers */
+	background: -moz-linear-gradient(top, #5e5e5f 0%, #333334 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5e5e5f), color-stop(100%,#333334)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #5e5e5f 0%,#333334 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #5e5e5f 0%,#333334 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #5e5e5f 0%,#333334 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #5e5e5f 0%,#333334 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5f', endColorstr='#333334',GradientType=0 ); /* IE6-9 */
+}
+
+.offers {
+    margin-top: 22px;
+}
+
+.offers > li {
+	list-style-type: disc;
+	font-size: 18px;
+    margin-left: -5px;
+    color: #ffd400;
+    /*font-weight: bold;*/
+}
+
+.offers-en-tr > li {
+	list-style-type: disc;
+	font-size: 18px;
+    margin-left: -5px;
+    color: #ffd400;
+    font-weight: bold;
+}
+
+
+.bet-sport2 {
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 808px;
+	height: 320px;
+	width: 265px;
+	background: #5e5e5f; /* Old browsers */
+	background: -moz-linear-gradient(top, #5e5e5f 0%, #333334 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5e5e5f), color-stop(100%,#333334)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #5e5e5f 0%,#333334 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #5e5e5f 0%,#333334 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #5e5e5f 0%,#333334 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #5e5e5f 0%,#333334 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5f', endColorstr='#333334',GradientType=0 ); /* IE6-9 */
+}
+
+.bonus-sport {
+	position: absolute;
+	background-image: url(../images/bonus-bg1.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 320px;
+	width: 265px;
+	z-index: 1000;
+	overflow: hidden;
+}
+
+.bonus-sport-enter {
+	position: absolute;
+	background-image: url(../images/vhod.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 320px;
+	width: 265px;
+	z-index: 1000;
+    top: 215px;
+}
+
+.bonus-sport-enter-en {
+	position: absolute;
+	background-image: url(../images/enter.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 320px;
+	width: 265px;
+	z-index: 1000;
+    top: 215px;
+}
+
+.bonus-sport-enter-tr {
+	position: absolute;
+	background-image: url(../images/vhod-tr.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 320px;
+	width: 265px;
+	z-index: 1000;
+    top: 215px;
+}
+
+.bonus-sport-enter-background {
+	position: absolute;
+	background-color: black;
+	height: 85px;
+	width: 265px;
+	z-index: 900;
+    top: 215px;
+}
+
+
+.bonus-sport-en {
+	position: absolute;
+	background-image: url(../images/bonus.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 320px;
+	width: 265px;
+	z-index: 1000;
+}
+
+.bonus-sport-tr {
+	position: absolute;
+	background-image: url(../images/bonus-tr.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 320px;
+	width: 265px;
+	z-index: 1000;
+}
+
+
+
+.bonus-casino {
+	position: absolute;
+	background-image: url(../images/casino-bonus.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 320px;
+	width: 265px;
+	z-index: 1000;
+    top: 84px;
+}
+
+.bonus-casino-en {
+	position: absolute;
+	background-image: url(../images/casino-bonus_en.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 320px;
+	width: 265px;
+	z-index: 1000;
+    top: 114px;
+}
+
+
+
+.bottom-navigation {
+	position: relative;
+	left: 200px;
+    top: 750px;
+	z-index: 1000;
+}
+
+
+
+.bottom-navigation > ul {
+	margin: 0;
+	padding: 0;
+	/*display: block;*/
+	margin-left: 125px;
+}
+
+.margin-en {
+	margin-left: 100px;
+}
+
+/*.bottom-navigation > ul > li:hover{
+	background-color: red;
+}*/
+
+.bonus, .smaller {
+	margin: 0;
+	padding: 0;
+	color: #ffd400;
+	text-align: center;
+	/*line-height: 1px;*/
+	text-shadow: 0 5px black;
+	font-family: 'Langdon', "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+.bonus  {
+  font-size: 83.333px;
+  font-family: "myriad-pro";
+  color: rgb( 255, 212, 0 );
+  font-weight: bold;
+  line-height: 0.35;
+  text-align: left;
+  -moz-transform: matrix( 1.3002913400291, 0, 0, 1.3002913400291, 0, 0);
+  -webkit-transform: matrix( 1.3002913400291, 0, 0, 1.3002913400291, 0, 0);
+  text-shadow: 1.5px 2.598px 2px rgb( 24, 24, 25 );
+  width: 202px;
+  height: 82px;
+  z-index: 100;
+}
+
+.smaller {
+	font-size: 40px;
+}
+
+.bottom-navigation > ul > li {
+	float: left;
+	margin-left: 20px;
+}
+
+.bottom-navigation > ul > li > a {
+	/*font-weight: bold;*/
+	font-size: 14px;
+}
+
+.left-list:hover {
+	background-color: grey;
+}
+
+
+
+.bottom-list:hover {
+	background-color: grey;
+}
+
+
+
+
+
+/*==================================================*/
+
+
+/*#popup {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}*/
+
+.popup-content {
+	z-index: 10000;
+	/*margin-bottom: 40px;*/
+	height: 50px;
+	width: 100%;
+	background-color: grey;
+	
+    position:fixed;
+    bottom:0px;
+     
+    
+}
+
+.popup-close {
+	margin-left: 10px;
+	background-color: darkgrey;
+	padding: 10px;
+	color: #ffd400;	
+}
+
+.text {
+	font-size: 14px; 
+	position: absolute;
+	bottom: 15px;
+	margin-left: 250px;
+
+}
+
+.popup-close:hover {
+	color: darkgrey;
+	cursor: pointer;
+	background-color: #ffd400;
+
+}
+
+.text-bg {
+	margin-left: 165px;
+}
+
+.flag-tr {
+	list-style-image: url(//cdn1.efbet.com/efbet/images/flag-tr.jpg);
+        color: #000000;
+}
+.flag-bg {
+	list-style-image: url(//cdn1.efbet.com/efbet/images/flag-bg.jpg);
+        color: #000000;
+}
+.flag-en {
+	list-style-image: url(//cdn1.efbet.com/efbet/images/flag-en.jpg);
+        color: #000000;
+}
+
+
+.prev {
+	display: block;
+	z-index: 1500;
+	left: 0;
+	top: 0px;
+	line-height: 320px;
+}
+
+.next {
+	z-index: 1500;
+	left: 510px;
+	top: 0px;
+	line-height: 320px;
+}
+
+.next:hover, .prev:hover {
+	background: rgba(0, 0, 0, 0.9);
+}
+
+.logos {
+	position: absolute;
+    left: 295px;
+	top: 705px;
+	height: 25px;
+	width: 1024px; 
+	background-image: url(//cdn1.efbet.com/efbet/images/AllLogos.png);
+	background-repeat: no-repeat;
+}
+
+.pic1 {
+	background-image: url(//cdn1.efbet.com/efbet/images/sliderImage1.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+.pic2 {
+	background-image: url(//cdn1.efbet.com/efbet/images/sliderImage2.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+/*.pic3 {*/
+	/*background-image: url(https://media.giphy.com/media/3o7Zel9P5aEDFepkgo/giphy.gif);
+	-webkit-background-size: 1073px 320px;
+	background-size: 1073px 320px;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}*/
+
+.pic3-tr {
+	/*background-image: url(../images/football-players1.jpg);*/
+	-webkit-background-size: 1073px 320px;
+	background-size: 1073px 320px;
+    background-repeat: no-repeat;
+    background-position: 0% 0%; 
+}
+
+.pic3-en {
+	/*background-image: url(../images/football-players1.jpg);*/
+	-webkit-background-size: 1073px 320px;
+	background-size: 1073px 320px;
+    background-repeat: no-repeat;
+    background-position: 0% 0%; 
+}
+
+.casino-pic1 {
+	background-image: url(//cdn1.efbet.com/efbet/images/casino_holdem537x320.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+.casino-pic2 {
+	background-image: url(//cdn1.efbet.com/efbet/images/blackjack537x320.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+.casino-pic3 {
+	background-image: url(//cdn1.efbet.com/efbet/images/live_roulette537x320.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+.casino-pic4 {
+	background-image: url(//cdn1.efbet.com/efbet/images/roulette_whee537x320l.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+.casino-pic5 {
+	background-image: url(//cdn1.efbet.com/efbet/images/Slots537x320.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+} 
+
+.casino-pic6 {
+	background-image: url(//cdn1.efbet.com/efbet/images/CasinoSliderDeposits.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+} 
+
+.casino-pic7 {
+	background-image: url(//cdn1.efbet.com/efbet/images/live_casino_FB.jpg);
+	-webkit-background-size: 537px 320px;
+	background-size: 537px 320px;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+.casino-pic8 {
+	background-image: url(//cdn1.efbet.com/efbet/images/landingpage-537x320.jpg);
+	-webkit-background-size: 537px 320px;
+	background-size: 537px 320px;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}  
+
+/* This pic99 is for landing_retro */
+.pic3-retro {
+	background-image: url("https://media.giphy.com/media/3o7abwDJOqFTQ3rdMk/giphy.gif");
+	-webkit-background-size: 537px 320px;
+	background-size: 537px 320px;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+.iframe-position-chrome {
+
+    transform: scale(0.75);
+    overflow: hidden;
+    width: 1464px;
+    height: 430px;
+    position: absolute;
+    left: -182px;
+    top: -54px;
+}

@@ -1,0 +1,38 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+	<style>
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	.background {
+	    background-image: url(https://cdn1.efbet.com/efbet/images/landing-page1.jpg);
+	    width: 100%;
+	    height: 100%;
+	    background-repeat: no-repeat;
+	    position: absolute;
+	    background-size: cover;
+	}
+
+	
+
+</style>
+</head>
+<body>
+	<div class="background">
+    	<iframe id="iframe" src="https://player.neterra.net/efbet/player.php" frameborder="0" scrolling="no" height="400" width="680" style="display: block; margin: auto;"></iframe>
+    </div>
+    <script>
+    	var iframe = document.getElementById('iframe');
+    	
+    	iframe.style.marginTop = (window.innerHeight - 350)/2 + 'px';
+    </script>
+</body>
+</html>
+
